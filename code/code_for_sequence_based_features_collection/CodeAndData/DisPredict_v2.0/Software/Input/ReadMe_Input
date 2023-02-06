@@ -1,0 +1,36 @@
+BalancedSSD
+==========
+REGAd3p is a predictor of absolute accessible surface area of residues 
+in protein. The predictor is  based on regularized exact regression 
+method using 3rd order polynomial as kernel and  with genetic algorithm 
+optimization of weights. It takes protein sequence (standard FASTA format) 
+as input and outputs per residue predicted ASA values. This software 
+also predicts secondary structure internally to use the probabilities
+of three types of secondary structure (helix, coil and beta). We also 
+report the result of secondary structure prediction.
+
+By Md Nasrul Islam, Sumaiya Iqbal and Md Tamjidul Hoque, January, 2015
+
+Contact:
+	thoque@uno.edu
+	mnislam@uno.edu
+	siqbal1@my.uno.edu (anni.are@gmail.com)
+	
+Availability
+============
+BalancedSSP is available at:
+http://cs.uno.edu/~tamjid/Software.html
+
+Input Format Guidelines
+=======================
+
+- Paste test protein sequence in directory "FASTA"
+	- follow standard FASTA format: >header and FASTA sequence
+	- multiple proteins should be placed in separate FASTA files
+	- name format: 'id.fasta'
+
+- Paste protein id (no extension) in id_list
+	
+NOTE: Program is strictly dependent on the input file format.
+
+Thanks!

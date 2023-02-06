@@ -1,0 +1,34 @@
+Prerequisite
+============
+
+1) PSI-BLAST with NR database (from NCBI toolkit) 
+Availability > ftp://ftp.ncbi.nih.gov/blast/
+Output > PSSM
+
+2) SPINE X 
+Availability > http://sparks.informatics.iupui.edu/SPINE-X/
+
+Output > secondary strucutre probabilities (helix, strand and coil)
+		 accessible surface area and 
+		 torsion angles (phi and psi) 
+		 
+3) IUPred
+Availability > http://iupred.enzim.hu/
+Output > prediction of intrinsically unstructured protein 
+Note: 
+	> The output (short disorder) is used for DAVAR -> phi, psi backbone torsion angle fluctuations prediction
+	> This output is NOT used for DisPredict	
+
+4) DAVAR (Install in 'AdditionalFiles' directory of Software)
+Reference: 
+	> E. Faraggi et al., ``Improving the prediction accuracy of residue solvent 
+	accessibility and real-value backbone torsion angles of proteins by fast guided-
+	learning through a two-layer neural network.'', Proteins 74, 857-871 (2009)
+	> contact @'yaoqi.zhou@griffith.edu.au' for the software
+	
+4) libSVM
+
+
+5) GCC
+Availability > http://gcc.gnu.org/
+The source codes are written in C/C++. To compile and execute, GCC is needed.

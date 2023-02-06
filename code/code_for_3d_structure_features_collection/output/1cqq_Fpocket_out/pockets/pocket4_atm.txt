@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.2299
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8836
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4986
+HEADER 5  - Mean B-factor of pocket residues  : 0.1961
+HEADER 6  - Hydrophobicity Score              : 6.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 2.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 184.2814
+HEADER 10  -Pocket volume (convex hull)       : 1.4049
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0556
+ATOM   1535    N GLY A 164       9.371  -8.156  26.652  0.00  0.00           N 0
+ATOM   1365    N SER A 144       9.211 -13.213  32.623  0.39  1.09           N 0
+ATOM   1355    O LYS A 143      10.809 -11.702  32.619  0.00  0.00           O 0
+ATOM   1366   CA SER A 144       8.400 -12.339  33.506  0.00  0.00           C 0
+ATOM   1354    C LYS A 143      10.410 -12.825  32.299  0.00  0.00           C 0
+ATOM   1346    O THR A 142      11.747 -13.439  28.805  0.23  2.14           O 0
+ATOM   1519  NE2 HIS A 161      12.679  -8.096  30.132  0.00  0.00           N 0
+ATOM   1348  OG1 THR A 142      13.331 -10.720  28.074  0.00  0.00           O 0
+ATOM   1538    O GLY A 164       7.732  -9.994  25.640  0.61  1.07           O 0
+ATOM   1369   CB SER A 144       7.016 -12.961  33.757  0.00  0.00           C 0
+ATOM   1531   CA GLY A 163       9.483  -6.242  28.053  0.00  0.00           C 0
+ATOM   1397   SG CYS A 147       9.623  -6.140  32.845  0.00  0.00           S 0
+ATOM   1532    C GLY A 163      10.162  -7.280  27.198  0.00  0.00           C 0
+ATOM   1536   CA GLY A 164       9.969  -9.208  25.812  0.00  0.00           C 0
+ATOM   1537    C GLY A 164       8.905 -10.120  25.261  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,24 @@
+https://freesasa.github.io/doxygen/CLI.html
+freesasa command
+SASA of each residue
+Calculate the SASA of each residue in the sequence:
+For example:
+$ freesasa --format=seq 1cqq.pdb
+# Residues in 1cqq.pdb
+SEQ A    5 THR :  138.48
+SEQ A    6 PRO :   25.53
+SEQ A    7 THR :   99.42
+================
+propka3 command
+https://github.com/jensengroup/propka
+For example:
+$ propka3 1cqq.pdb
+================
+Fpocket
+https://github.com/Discngine/fpocket
+$ fpocket -f 1cqq.pdb
+================
+Depth
+http://cospi.iiserpune.ac.in/depth/download/
+./DEPTH -i 1cqq.pdb-o 2grn
+================
