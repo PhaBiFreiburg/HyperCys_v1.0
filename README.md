@@ -52,8 +52,8 @@ Keyword: `machine learning` `structure- and sequence-based` `druggable cysteine`
 
 
 5) Column 57
-    * Totally collected:
-    * 1 Position Specific Estimated Energy (PSEE)
+1 Position Specific Estimated Energy (PSEE)
+* Totally collected:
     * 20 PSSMs
     * 1 monogram
     * 20 bigrams
