@@ -77,5 +77,5 @@ Keyword: `machine learning` `structure- and sequence-based` `druggable cysteine`
 
     * sequence_based.model
 
-    * strucutre_based.model
+    * structure_based.model
 ## Cite Us
